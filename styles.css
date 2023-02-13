@@ -1,3 +1,26 @@
 * {
   text-align: center;
 }
+
+.eas-canvas {
+  margin: auto;
+  width: 720px;
+  height: 720px;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.white {
+  background-color: white;
+  flex: 1 1 7.2px;
+}
+
+.black {
+  background-color: black;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 10px;
+}
