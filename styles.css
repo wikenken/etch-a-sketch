@@ -11,9 +11,12 @@
   flex-wrap: wrap;
 }
 
+.cellSize {
+  flex: 1 1 45px;
+}
+
 .white {
   background-color: white;
-  flex: 1 1 7.2px;
 }
 
 .black {
