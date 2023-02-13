@@ -2,8 +2,13 @@
   text-align: center;
 }
 
+.body {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .eas-canvas {
-  margin: auto;
   width: 720px;
   height: 720px;
   border: 5px solid black;
@@ -23,7 +28,14 @@
   background-color: black;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 button {
-  padding: 5px 10px;
-  margin: 10px;
+  font-size: 3em;
+  width: 250px;
+  height: 100px;
 }
