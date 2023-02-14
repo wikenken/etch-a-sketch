@@ -16,10 +16,6 @@
   flex-wrap: wrap;
 }
 
-.cellSize {
-  flex: 1 1 45px;
-}
-
 .white {
   background-color: white;
 }
@@ -31,11 +27,11 @@
 nav {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
 }
 
 button {
-  font-size: 3em;
-  width: 250px;
-  height: 100px;
+  font-size: 2em;
+  padding: 15px;
 }
